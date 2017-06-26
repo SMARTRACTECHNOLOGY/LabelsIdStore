@@ -1,4 +1,4 @@
-package org.blinkmob.scalatraseed.utils
+package net.smartcosmos.labels.utils
 import org.slf4j.LoggerFactory
 
 /**

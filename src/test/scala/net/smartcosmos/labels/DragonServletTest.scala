@@ -1,4 +1,4 @@
-package org.blinkmob.scalatraseed
+package net.smartcosmos.labels
 
 import org.junit.runner.RunWith
 import org.scalatra.test.specs2.ScalatraSpec
@@ -6,13 +6,14 @@ import org.specs2.runner.JUnitRunner
 import org.json4s.jackson.Serialization._
 import org.json4s.DefaultFormats
 import org.json4s.Formats
-import org.blinkmob.models.Dragon
+import net.smartcosmos.labels.models.Dragon
 import org.specs2.specification.ForEach
+
 import org.specs2.execute.AsResult
 import org.specs2.execute.Result
 import java.sql.Connection
 import org.scalatra.test.specs2.MutableScalatraSpec
-import org.blinkmob.scalatraseed.utils.DB
+import net.smartcosmos.labels.utils.DB
 
 @RunWith(classOf[JUnitRunner])
 class DragonServletTest extends MutableScalatraSpec {

@@ -1,7 +1,7 @@
-package org.blinkmob.scalatraseed
+package net.smartcosmos.labels
 
 import org.specs2.mutable.Specification
-import org.blinkmob.models.Dragon
+import net.smartcosmos.labels.models.Dragon
 import java.sql.Connection
 import org.junit.runner.RunWith
 import org.specs2.runner.JUnitRunner

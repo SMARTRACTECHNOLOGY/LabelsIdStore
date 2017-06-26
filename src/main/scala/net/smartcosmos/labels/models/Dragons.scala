@@ -1,4 +1,4 @@
-package org.blinkmob.models
+package net.smartcosmos.labels.models
 
 import anorm._
 import java.sql.Connection

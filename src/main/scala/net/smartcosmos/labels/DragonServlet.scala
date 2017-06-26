@@ -1,10 +1,10 @@
-package org.blinkmob.scalatraseed
+package net.smartcosmos.labels
 
-import org.blinkmob.scalatraseed.utils.BaseServlet
+import net.smartcosmos.labels.utils.BaseServlet
 import anorm._
 import java.sql.Connection
-import org.blinkmob.models.Dragon
-import org.blinkmob.scalatraseed.utils.DB
+import net.smartcosmos.labels.models.Dragon
+import net.smartcosmos.labels.utils.DB
 
 class DragonServlet extends BaseServlet{
 

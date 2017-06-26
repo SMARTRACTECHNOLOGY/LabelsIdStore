@@ -1,9 +1,10 @@
 import org.scalatra.LifeCycle
 import javax.servlet.ServletContext
 
-import org.blinkmob.scalatraseed.PingServlet
-import org.blinkmob.scalatraseed.DragonServlet
+import net.smartcosmos.labels.PingServlet
+import net.smartcosmos.labels.DragonServlet
 import com.zaxxer.hikari.HikariDataSource
+import net.smartcosmos.labels.TidVideoServlet
 
 
 class ScalatraBootstrap extends LifeCycle {
@@ -15,5 +16,6 @@ class ScalatraBootstrap extends LifeCycle {
     // mount servlets like this:
     context mount (new PingServlet, "/ping")
     context mount (new DragonServlet, "/dragon")
+    context mount (new TidVideoServlet, "/tidvideo")
   }
 }

@@ -1,4 +1,4 @@
-package org.blinkmob.scalatraseed.utils
+package net.smartcosmos.labels.utils
 import org.scalatra.ScalatraServlet
 import org.json4s.DefaultFormats
 import org.json4s.Formats
