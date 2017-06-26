@@ -96,7 +96,7 @@ task('mAppRun', type: AppStartTask, dependsOn:'prepareInplaceWebApp') {
 mAppRun.dependsOn flywayMigrate
 
 war {
-    archiveName 'dragons.war'
+    archiveName 'switches-labelid.war'
     rootSpec.exclude('**/migration/**')
 }
 
