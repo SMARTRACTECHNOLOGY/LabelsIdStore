@@ -14,7 +14,9 @@ object TidVideo {
   }
   
   def setVideoForTid(tid:String, videoId:Long)(implicit c:Connection) = {
-    SQL"""INSERT INTO tid_video_id (tid, video_id) values ($tid, $videoId)""".executeInsert()
+    SQL"""INSERT INTO tid_video_id (tid, video_id) values ($tid, $videoId)
+          ON DUPLICATE KEY UPDATE video_id=$videoId
+    """.executeInsert()
   }
   
 }

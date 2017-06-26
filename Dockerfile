@@ -7,7 +7,7 @@ RUN rm -rf webapps/*
 
 RUN rm -rf work/Catalina/localhost/*
 
-COPY build/libs/dragons.war /usr/local/tomcat/webapps
+COPY build/libs/switches-labelid.war /usr/local/tomcat/webapps
 
 COPY setenv.sh /usr/local/tomcat/bin
 
